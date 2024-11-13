@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TStoreT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!--roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!--carousel-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <link rel="icon" href="Indumentaria_Pics/sonriente.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Tienda Talento Tech</a>
+    </header>
+
+    <nav class="menu">
+        <ul>
+    <li>
+        <a href="#zapatillas">Zapatillas</a>
+        </li>
+    <li>
+        <a href="#remeras">Remeras</a>
+        </li>
+    <li>
+        <a href="#medias">Medias</a>
+        </li>
+    <li>
+        <a href="#shorts">Shorts</a>
+        </li>
+        <li>
+            <a href="#jeans">Jeans</a>
+        </li>
+    </ul>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Indumentaria_Pics/ropa1.jpg" class="d-block w-100" alt="Ropa 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Indumentaria_Pics/ropa3.jpg" class="d-block w-100" alt="Ropa 3">
+            </div>
+            <div class="carousel-item">
+                <img src="Indumentaria_Pics/ropa4.jpg" class="d-block w-100" alt="Ropa 4">
+            </div>
+        </div>
+        <!-- Controles de navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <!--contenedor de productos-->
+        <div class="container">
+            <!-- Sección de productos -->
+            <section class="productos">
+                
+                <!-- Producto 1 -->
+                 <div id="zapatillas"></div>
+                <div class="card">
+                    <img src="Indumentaria_Pics/shoes.png" alt="zapatillas tipo converse" class="product-img">
+                    <div class="product-info">
+                        <h4>Zapatillas Tipo Converse</h4>
+                        <p>Originales desde 1917, las zapatillas Converse son de alta confiabilidad</p>
+                        <p class="price">$78.000</p>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div id="remeras"></div>
+                <div class="card">
+                    <img src="Indumentaria_Pics/t-shirt.jpg" alt="remera básica" class="product-img">
+                    <div class="product-info">
+                        <h4>Remera Blanca "Coruña"</h4>
+                        <p>Remera clásica mangas cortas, 100 % Algodón Peinado. ¡Excelente calidad!</p>
+                        <p class="price">$10.000</p>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div id="medias"></div>
+                <div class="card">
+                    <img src="Indumentaria_Pics/1medias.jpg" alt="medias clásicas" class="product-img">
+                    <div class="product-info">
+                        <h4>Par de medias tira azul</h4>
+                    <p>Te traemos las mejores medias del mercado. La mejor calidad del mercado!</p>
+                        <p class="price">$1.400</p>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div id="shorts"></div>
+                <div class="card">
+                    <img src="Indumentaria_Pics/short.jpg" alt="Short Mujer" class="product-img">
+                    <div class="product-info">
+                        <h4>Short Gimnasio "Escandinavia"</h4>
+                        <p>Presentamos el mejor SHORT DE GIMNASIA. Excelente calidad en su tela!!</p>
+                        <p class="price">$20.000</p>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div id="jeans"></div>
+                <div class="card">
+                    <img src="Indumentaria_Pics/jean.jpg" alt="Jean Levis" class="product-img">
+                    <div class="product-info">
+                        <h4>Jean Levis Elastizado</h4>
+                        <p>Levis 511 slim fit corte angosto color jeans, largo de pierna único!!</p>
+                        <p class="price">$100.000</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <h4>Juan Pérez</h4>
+                    <p>Excelente calidad de los productos, envío rápido y atención al cliente excelente. ¡Muy recomendado!</p>
+                </div>
+                <div class="reseña">
+                    <h4>Ana García</h4>
+                    <p>¡Me encantaron las zapatillas! Súper cómodas y elegantes. Definitivamente compraré más.</p>
+                </div>
+                <div class="reseña">
+                    <h4>Pedro Gómez</h4>
+                    <p>Un poco caro, pero la calidad de los productos lo justifica. Compraré más prendas en el futuro.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Formulario de contacto -->
+    <div class="formulario">
+        <form action="https://formspree.io/f/movqwlwk" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" rows="4" placeholder="Escribe tu mensaje aquí" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar formulario</button>
+        </form>
+        <br><br>
+    </div>
+
+<!--footer con boostrap-->    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Tienda Talento Tech | Todos los derechos son reservados</p>
+      </footer>
+</body>
+</html>
